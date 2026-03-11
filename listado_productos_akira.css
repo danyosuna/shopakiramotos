@@ -69,7 +69,7 @@ nav a:hover{
     border-color: #088c19;
 }
 
-.productos.h2{
+.productos h2{
     font-size: 30px;
     font-weight: bold;
 }
@@ -159,4 +159,5 @@ thead{
 td, th{
    border: 1px solid #000000;
    padding: 8px 15px;
+
 }
