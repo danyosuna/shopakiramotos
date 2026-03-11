@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>LISTADO_PRODUCTOS_AKIRA - AKIRA</title>
+        <link rel="stylesheet" href="reset.ccs">
+        <link rel="stylesheet" href="LISTADO_PRODUCTOS_AKIRA.CSS">
+    </head>
+    <body>
+        <header>
+           <div class="caja">         
+                <h1><img src="imagenes_akira/akira_logo.png"></h1> 
+                <nav>
+                    <ul> 
+                        <Li><a href="INDEX_AKIRA.html">Home</a></Li>
+                        <Li><a href="LISTADO_PRODUCTOS_AKIRA.HTML">Productos</a></Li>
+                        <Li><a href="CONTACTO_AKIRA.HTML">Contacto</a></Li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class= "contactos"></section>
+            <form>
+                <label for="nombreyapellido"> Nombre y Apellido</label>
+                <input type="text" id="nombreyapellido" class="input-padron" required>
+
+                <label for="correoelectronico"> Correo electrónico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+        
+                <label for="teléfono"> Teléfono</label>
+                <input type="teléfono" id="teléfono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id= "mensaje" class="input-padron" required></textarea>
+                    
+            <div>
+                <legend>¿Como le gustaría que lo contactemos?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+               
+                <label for="radio-teléfono"><input type="radio" name="contacto" value="teléfono" id="radio-telefono">Teléfono</label>
+               
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                
+            </div>
+
+                <div>
+                    <legend> ¿En que horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>mañana</option>
+                        <option>tarde</option>
+                        <option>noche</option>
+                    </select>
+                </div>
+
+                <label><input type="checkbox" checked>¿Le gustaría recibir novedades de la Akira Motos?</label>
+        
+                <input type="submit" name="contacto" value="Enviar formulario" class="enviar">
+
+            </form>   
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08hs - 20hs</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08hs - 20hs</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08hs - 20hs</td>
+                    </tr>
+                </tbody>         
+            </table>
+        </section>
+        </main>
+        <footer>
+            <img src="imagenes_akira/akira_logo_blanco_negro.jpg">
+            <p class="copyright" > &copy Copyright AKIRA MOTOS - 2023</p>
+            <p class="copyright" >(DanyTechBernal)</p>
+        </footer>
+     </body>
+</html>   

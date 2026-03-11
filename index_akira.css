@@ -1,0 +1,144 @@
+
+:root{
+    --color-primario: #C6E7FF;
+    --color-secundario:  #D4F6FF;
+    --color-terciario: #608BC1;
+    --color-cuaternario: #A1E3F9;
+    --color-negro: black;
+    
+ /*   --fuente-montserrat: "Montserrat", sans-serif;
+    --fuente-krona: "Krona One", sans-serif;*/
+}
+
+
+header{
+    background-color:var(--color-primario); /* #bbbbbb;*/
+    padding: 10px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+margin: 0;
+}
+
+
+nav a {
+text-transform: uppercase;
+color: var(--color-negro); 
+font-weight: bold;
+font-size: 22px;;
+text-decoration: none;
+padding: 10px;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+
+.titulo-principal{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 0 1em;
+}
+
+.principal p{
+    margin: 0 0 0.5em ;
+}
+
+.principal strong{
+    font-weight: bold ;
+}
+
+.principal em{
+    font-style: italic;
+    font-size: 24px;
+}
+
+.akira{                       
+    width: 100%;
+   
+}
+
+.principal{
+    background-color:var(--color-secundario);     /* #D4F6FF; /*#cccccc;*/
+    padding: 15px;
+}
+
+.titulo-centralizado{
+    text-align: left;
+    font-size: 38px;
+}
+
+p{
+    text-align: center;  
+}
+
+em strong{
+    color:var(--color-negro); /* black; /* blue;*/
+}
+
+#mision{
+    font-size: 22px;
+}
+
+.diferenciales{
+    background: #A1E3F9; /* #FFFFFF;*/
+    padding: 95px;
+    font-size:22px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 30%;
+}
+
+.imagenDiferenciales{
+    width: 45%;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes_akira/COLOR\ NEGRO\ FOOTER.png);
+    padding: 14px;
+    color: var(--color-terciario);
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
